@@ -1,0 +1,196 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.Home{
+  position: relative;
+  .top-list{
+    line-height: 50px;
+    min-width: 1200px;
+    height: 50px;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    padding: 0 100px 0 100px;
+    .btn{
+      border: 0;
+      margin-right: 5px;
+      font-size: 14px;
+    }
+    .sel{
+      color:blue;
+    }
+  }
+  .main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90vw;
+    min-width: 1080px;
+    padding: 10px;
+    .HomeMenu{
+      .menu-ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .btn{
+        margin-right: 8px;
+        border-radius: 20px;
+      }
+      .sel{
+        color: blue;
+      }
+    }
+
+    .left{
+      border-radius: 5px;
+      // margin-right: 10px;
+      min-width: 780px;
+      width: 65vw;
+      background-color: #fff;
+      clear: both;
+      .top-sel{
+        width: 100%;
+        height: 45px;
+        border-bottom: 1px solid #eee;
+        line-height: 45px;
+        padding-left: 10px;
+        .top-sel-btn{
+          border: 0;
+          border-right: 1px solid #eee ;
+          background-color: #fff;
+          margin-right: 5px;
+          height: 30px;
+          &:last-child{
+            border: 0;
+          }
+        }
+        .main-btn-sel{
+          color: blue;
+        }
+      }
+      .bottom-main{
+        padding: 8px 20px 14px;
+      }
+    }
+    .right{
+      height: 0;
+      min-width: 270px;
+      width: 22vw;
+      .right-top{
+        display: flex;
+        padding: 10px 10px;
+        justify-content: space-between;
+        width: 100%;
+        height: 100px;
+        background-color: #fff;
+        border-radius: 5px;
+        .main-contant{
+          padding: 14px 0;
+          p{
+            font-size: 16px;
+            padding-bottom: 8px;
+            margin: 0;
+          }
+        }
+        .btn{
+          margin-top: 45px;
+          border-radius: 20px;
+          border: 1px solid blue;
+        }
+      }
+      .right-hot{
+        overflow: hidden;
+        margin-top: 20px;
+        width: 100%;
+        // height: 200px;
+        border-radius: 5px;
+        background-color: #fff;
+        .right-hot-top{
+          padding: 8px 20px;
+          border-bottom: 1px solid #eee;
+          span{
+            margin-left: 5px;
+            vertical-align: middle;
+            font-weight: bold;
+          }
+        }
+        .right-hot-main{
+          ul{
+            list-style: none;
+            margin: 0;
+            li{
+              display: flex;
+              padding: 15px;
+              border-bottom: 1px solid #eee;
+              .hot-img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                overflow: hidden;
+              }
+              div{
+                margin-left: 10px;
+                span{
+                  &:first-child{
+                    display: inline-block;
+                    width: 60px;
+                    margin-right: 20px;
+                    font-size: 20px;
+                    color: #000;
+                  }
+                  &:nth-child(2){
+                    vertical-align: top;
+                    margin-top: -100px;
+                  }
+                  &:last-of-type{
+                    font-size: 12px;
+                  }
+                }
+                p{
+                  margin:5px 6px;
+                  font: normal normal 12px;
+                  color: rgb(174, 171, 171);
+                }
+              }
+            }
+          }
+          .hot-main-bottom{
+            display: flex;
+            text-align: center;
+          }
+          .hot-btn{
+            color: #1890ff;
+            width: 100%;
+            height: 40px;
+            font-size: 16px;
+            border: 0;
+          }
+        }
+      }
+      .right-bottom{
+        margin-top: 15px;
+        width: 100%;
+        // background-color: #fff;
+        border-radius: 5px;
+        span{
+          color: #000;
+          margin-right: 5px;
+        }
+        p{
+          margin: 0;
+        }
+        .right-bottom-a{
+          display: flex;
+          flex-wrap: wrap;
+          span{
+            &:hover{
+              color: blue;
+            }
+          }
+        }
+      }
+    }
+  }
+}

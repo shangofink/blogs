@@ -1,0 +1,53 @@
+.Data{
+  border-radius: 5px;
+  background-color: #fff;
+  .data-top{
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    .btn{
+      border: 0;
+      height: 58px !important;
+      margin-right: 15px;
+    }
+    .sel{
+      color: blue;
+      border-bottom: 1px solid blue;
+    }
+  }
+  .data-main{
+    padding:20px 20px 20px;
+    min-height: 540px;
+    ul{
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      li{
+        margin-right: 15px;
+        &:nth-child(3n){
+          margin-right: 0;
+        }
+        &:nth-child(4),&:nth-child(5),&:nth-child(6){
+          margin-top: 20px;
+        }
+        div{
+          width: 290px;
+          height: 125px;
+          background-color: #f1f1f1;
+          padding: 20px;
+          border-radius: 5px;
+          p{
+            margin: 0;
+            &:nth-child(2){
+              font-size: 30px;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}

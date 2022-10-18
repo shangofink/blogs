@@ -1,0 +1,31 @@
+/* 渐隐渐显 */
+.router-enter{opacity: 0;}
+.router-enter-active{opacity: 1;transition: opacity 1000ms;}
+.router-enter-done{opacity: 1;}
+.router-exit{opacity: 1;}
+.router-exit-active{opacity: 0;transition: opacity 1000ms;}
+.router-exit-done{opacity: 0;}
+
+/* 右侧到左侧 显现 */
+
+.router2-enter{
+  position: absolute;
+  right: -100vw;
+}
+.router2-enter-active{
+  transform: translateX(-100vw);
+  transition:all 1s;
+}
+.router2-enter-done{
+  opacity: 1;
+}
+.router2-exit{
+  opacity: 1;
+}
+.router2-exit-active{
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+.router2-exit-done{
+  opacity: 0;
+}

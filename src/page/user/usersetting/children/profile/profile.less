@@ -1,0 +1,60 @@
+.Profile{
+  padding: 15px 25px 0 25px;
+  display: flex;
+  .profile-left{
+    .userdata{
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .profile-from{
+      width: 550px;
+      margin: 10px 30px;
+      .ant-row{
+        border-top: 1px solid #eee;
+        padding-top: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        &:nth-last-child(2){
+          margin-bottom: 0;
+        }
+        .ant-form-item-control{
+          margin-left: 20px;
+          width: 300px;
+        }
+      }
+      .profile-form-btn{
+        text-align: center;
+        button{
+          border-radius: 20px;
+        }
+        .btn{
+          pointer-events: none;
+          background-color: #eee;
+          border: #eee;
+        }
+      }
+    }
+  }
+  .profile-right{
+    margin-top: 100px;
+    margin-left: 80px;
+    text-align: center;
+    img{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    .btnimg{
+      &:first-child{
+        margin-right: 10px;
+      }
+      &:last-child{
+        margin-left: 10px;
+      }
+      border-radius: 20px;
+    }
+  }
+}

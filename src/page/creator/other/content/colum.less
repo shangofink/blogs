@@ -1,0 +1,136 @@
+.Content-article{
+  background-color: #fff;
+  border-radius: 5px;
+  .content-article-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px 0 20px;
+    border-bottom: 1px solid #eee;
+    .search{
+      width: 250px;
+      height: 40px;
+    }
+    .btn{
+      border: 0;
+      margin-right: 20px;
+      height: 58px !important;
+      margin-top: 5px;
+      font-size: 18px;
+    }
+    .topsel{
+      border-bottom: 1px solid blue ;
+      color: blue;
+    }
+    .addbtn{
+      span{
+        &:hover{
+          color: rgb(48, 121, 190) !important;
+        }
+      }
+    }
+  }
+  .content-article-main{
+    height: 540px;
+    padding: 20px;
+    .btn{
+      border: 0;
+      margin-right: 10px;
+      border-right: 1px solid #eee;
+    }
+    .sel{
+      color: blue;
+    }
+    .colum-table{
+      .ant-table-content{
+        height: 450px !important;
+      }
+    }
+  }
+}
+.particular-modal{
+  top: 10vh;
+  border-radius: 10px;
+  min-width: 800px;
+  width: 50vw;
+  min-height: 500px;
+  height: 50vh;
+  .ant-modal-header{
+    border-bottom:0;
+  }
+  .ant-modal-body{
+    padding: 0 24px 16px;
+  }
+  .ant-modal-header,.ant-modal-content{
+    border-radius: 10px;
+  }
+  .particular-table{
+    .ant-table-tbody>tr>td{
+      border-bottom: 0;
+    }
+  }
+}
+.colum-model{
+  border-radius: 5px;
+  .ant-modal-content{
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .colum{
+    .title{
+      span{
+        &:first-child{
+          width: 50px;
+        }
+      }
+      display: flex;
+      align-items: center;
+    }
+    .type{
+      margin-top: 20px;
+      display: flex;
+      .spantype{
+        width: 50px;
+      }
+      .select{
+        width: 100%;
+        .ant-radio-wrapper{
+          margin-bottom: 10px;
+        }
+      }
+      align-items: center;
+    }
+  }
+}
+.change-colum{
+  .ant-modal-content{
+    border-radius: 10px;
+  overflow: hidden;
+  }
+  .title{
+    span{
+      &:first-child{
+        width: 50px;
+      }
+    }
+    display: flex;
+    align-items: center;
+  }
+  .type{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    .spantype{
+      width: 50px;
+    }
+    .select{
+      width: 100%;
+    }
+    align-items: center;
+  }
+  .changearticle{
+    margin-top: 10px;
+    
+  }
+}

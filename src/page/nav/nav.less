@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.nav-top{
+  position: sticky;
+  top:0;
+  z-index: 999;
+  min-width: 1200px;
+  height: 60px;
+  // width: 100vw;
+  width: 100%;
+  background-color:#ffffff;
+  line-height: 60px;
+  padding: 0 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  .left{
+    display: inline;
+    .logo{
+      display: inline;
+      margin-right: 20px;
+      img{
+        vertical-align:middle;
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .list{
+      padding: 1px 0;
+      display: inline-block;
+      height: 60px;
+      // width: 400px;
+      background-color: #fff;
+      .btn{
+        width: 60px;
+        height: 57px;
+        margin-right: 5px;
+        background-color: #fff;
+        border: 1px solid #fff;
+        &:hover{
+          background-color: #fff;
+          border-bottom: 1px solid blue;
+          color: blue;
+        }
+      }
+      .btnclick{
+        color: blue;
+        border-bottom: 1px solid blue;
+      }
+    }
+  }
+  .right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 58px;
+    box-sizing: border-box;
+    .select{
+      margin-right: -1px;
+      .ant-select-selector{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+    }
+    .search{
+      width: 250px;
+      .ant-input-group-addon{
+        overflow: hidden;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+    }
+    .img{
+      margin-left: 18px;
+      vertical-align: top;
+      width: 35px;
+      height: 35px;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+    .createbtn{
+      margin-left: 18px;
+      background-color: #1890ff;
+      color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .login{
+      margin-top: 15px;
+      margin-left: 18px;
+      color: blue;
+      background-color: #eee;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+  }
+
+}
